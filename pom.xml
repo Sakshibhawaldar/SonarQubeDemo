@@ -1,14 +1,18 @@
-http://www.w3.org/2001/XMLSchema-instance"
+<?xml version="1.0" encoding="UTF-8"?>
 
-xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+<project xmlns="http://maven.apache.org/POM/4.0.0"
 
-http://maven.apache.org/xsd/maven-4.0.0.xsd">
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 
- 
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+
 
   <modelVersion>4.0.0</modelVersion>
 
- 
+
 
   <groupId>org.saco</groupId>
 
@@ -18,19 +22,19 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
   <packaging>jar</packaging>
 
- 
+
 
   <name>myProject</name>
 
   <description>A demo Java project for Jenkins and SonarQube integration</description>
 
-http://www.saco.com/devops/myproject</url>
+  <url>http://www.saco.com/devops/myproject</url>
 
- 
+
 
   <properties>
 
-<project.build.sourceEncoding>UTF-8project.build.sourceEncoding>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
     <maven.compiler.source>17</maven.compiler.source>
 
@@ -38,7 +42,7 @@ http://www.saco.com/devops/myproject</url>
 
   </properties>
 
- 
+
 
   <dependencies>
 
@@ -58,7 +62,7 @@ http://www.saco.com/devops/myproject</url>
 
   </dependencies>
 
- 
+
 
   <build>
 
@@ -84,7 +88,7 @@ http://www.saco.com/devops/myproject</url>
 
       </plugin>
 
- 
+
 
       <!-- Unit test execution plugin -->
 
@@ -102,6 +106,7 @@ http://www.saco.com/devops/myproject</url>
 
   </build>
 
- 
+
 
 </project>
+
